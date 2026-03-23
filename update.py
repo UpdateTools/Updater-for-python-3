@@ -6,11 +6,11 @@ import sys
 import subprocess
 
 # === SETTINGS ===
-APP_NAME = "MyApp"
+APP_NAME = "Updater"
 LOCAL_VERSION = "1.0.0"
 VERSION_URL = "https://raw.githubusercontent.com/YourUser/YourRepo/main/version.txt"
-UPDATE_URL = "https://github.com/YourUser/YourRepo/releases/latest/download/MyAppInstaller.exe"
-DOWNLOAD_PATH = "MyAppInstaller.exe"
+UPDATE_URL = "https://github.com/YourUser/Updater-/releases/latest/download/Updater.exe"
+DOWNLOAD_PATH = "Updater.exe"
 
 
 def get_latest_version():
