@@ -8,8 +8,8 @@ import subprocess
 # === SETTINGS ===
 APP_NAME = "Updater"
 LOCAL_VERSION = "1.0.0"
-VERSION_URL = "https://raw.githubusercontent.com/YourUser/Updater-for-python-3/main/version.txt"
-UPDATE_URL = "https://github.com/YourUser/Updater-for-python-3/releases/latest/download/Updater.exe"
+VERSION_URL = "https://raw.githubusercontent.com/UpdateTools/Updater-for-python-3/main/version.txt"
+UPDATE_URL = "https://github.com/UpdateTools/Updater-for-python-3/releases/latest/download/Updater.exe"
 DOWNLOAD_PATH = "Updater.py"
 
 
