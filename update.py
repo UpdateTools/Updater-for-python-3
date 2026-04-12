@@ -8,7 +8,7 @@ import subprocess
 # === SETTINGS ===
 # Replace the following URLs with your actual version and update file URLs
 APP_NAME = "Updater"
-LOCAL_VERSION = "1.0.0-Beta"
+LOCAL_VERSION = "1.0.0"
 VERSION_URL = "https://raw.githubusercontent.com/UpdateTools/Updater-for-python-3/main/version.txt"
 UPDATE_URL = "https://github.com/UpdateTools/Updater-for-python-3/releases/latest/download/update.py"
 DOWNLOAD_PATH = "update.py"
