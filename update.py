@@ -35,7 +35,7 @@ def download_update():
             for data in response.iter_content(1024):
                 f.write(data)
 
-        messagebox.showinfo("Update Complete", "Download finished. The installer will now run.")
+        messagebox.showinfo("Update Complete", "Download finished. The updater will now open again.")
         subprocess.Popen(DOWNLOAD_PATH, shell=True)
         sys.exit(0)
 
