@@ -51,7 +51,7 @@ def main():
 
     if latest != LOCAL_VERSION:
         root = tk.Tk()
-        root.withdraw()  # Hide main window
+        root.withdraw()  # Hide main window.
         if messagebox.askyesno(
             f"{APP_NAME} Update",
             f"A new version ({latest}) is available!\n\n"
